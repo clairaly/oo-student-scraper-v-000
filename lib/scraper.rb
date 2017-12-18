@@ -5,8 +5,10 @@ require 'nokogiri'
 class Scraper
 
   def self.scrape_index_page(index_url)
-    html = open(http://students.learn.co/)
-    doc = Nokogiri::HTML(html)
+    html = File.read('http://students.learn.co/')
+
+
+
 
   end
 
