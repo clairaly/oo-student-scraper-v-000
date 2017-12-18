@@ -42,6 +42,5 @@ class Scraper
     end
      students_page
   end
-  end
 
 end
