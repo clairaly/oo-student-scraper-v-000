@@ -1,13 +1,13 @@
 require 'open-uri'
 require 'pry'
-require 'nokogiri'
+require 'Nokogiri'
 
 class Scraper
 
   def self.scrape_index_page(index_url)
     html = open("./fixtures/student-site/index.html")
-
-    student = {}
+    @parse_page ||= 
+    students = {}
   end
 
   def self.scrape_profile_page(profile_url)
